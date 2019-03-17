@@ -9,7 +9,10 @@ pom.xml.asc
 /.lein-*
 /.nrepl-port
 /resources/public/js
+/resources/public/klangmeister/js
 /out
 /.repl
 *.log
 /.env
+*.DS_Store
+.rebel_readline_history
