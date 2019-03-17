@@ -1,25 +1,25 @@
 (defproject klangmeister "0.1.0-SNAPSHOT"
   :description "A musical scratchpad."
-  :license {:name "MIT" }
-  :dependencies [[org.clojure/clojure "1.8.0"]
-                 [reagent "0.5.1"]
-                 [reagent-utils "0.1.7"]
-                 [quil "2.3.0"]
+  :license {:name "MIT"}
+  :dependencies [[org.clojure/clojure "1.9.0"]
+                 [reagent "0.8.1"]
+                 [reagent-utils "0.3.2"]
+                 [quil "2.8.0"]
                  [secretary "1.2.3"]
-                 [cljs-ajax "0.5.5"]
-                 [venantius/accountant "0.1.6"]
+                 [cljs-ajax "0.8.0"]
+                 [venantius/accountant "0.2.4"]
                  [org.clojure/clojurescript "1.9.946"]
                  [org.clojure/tools.namespace "0.3.0-alpha4"]
                  [org.clojure/tools.reader "1.1.1"]
-                 [org.clojure/java.classpath "0.2.3"]
+                 [org.clojure/java.classpath "0.3.0"]
                  [leipzig "0.10.0"]
-                 [cljs-bach "0.3.0-SNAPSHOT"]]
+                 [cljs-bach "0.4.0-SNAPSHOT"]]
 
-  :min-lein-version "2.5.0"
+  :min-lein-version "2.9.0"
 
-  :plugins [[lein-cljsbuild "1.1.2"]
-            [lein-figwheel "0.5.0-2"]
-            [lein-doo "0.1.8"]]
+  :plugins [[lein-cljsbuild "1.1.7"]
+            [lein-figwheel "0.5.18"]
+            [lein-doo "0.1.11"]]
 
   :clean-targets ^{:protect false} ["resources/public/klangmeister/js/compiled"
                                     "target"
